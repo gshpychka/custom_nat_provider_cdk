@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "custom-nat-provider-cdk"
+version = "0.1.0"
+description = ""
+authors = ["Glib Shpychka <23005347+gshpychka@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aws-cdk-lib = "^2.29.0"
+cdk-iam-floyd = "^0.386.0"
+exceptiongroup = "^1.0.0rc8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

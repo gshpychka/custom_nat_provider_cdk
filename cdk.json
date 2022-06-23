@@ -1,0 +1,7 @@
+{
+  "app": "python3 -B app.py",
+  "versionReporting": false,
+  "context": {
+    "@aws-cdk/aws-iam:minimizePolicies": false
+  }
+}
