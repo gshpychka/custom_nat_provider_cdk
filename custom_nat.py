@@ -10,6 +10,8 @@ import typing
 import cdk_iam_floyd as statement
 
 import jsii
+
+
 def is_outbound_allowed(direction: ec2.NatTrafficDirection) -> bool:
     return direction in [
         ec2.NatTrafficDirection.INBOUND_AND_OUTBOUND,
@@ -239,7 +241,6 @@ class CustomNatInstance(cdk.Stack):
             enable_dns_hostnames=True,
             enable_dns_support=True,
         )
-
 
         lambda_.Function(
             self,
